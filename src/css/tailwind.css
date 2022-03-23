@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GOOGLE FONTS START */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+/* GOOGLE FONTS END */
+
+@layer base {
+  h1 {
+    font-size: 52px;
+    @apply font-lora;
+    @apply font-extrabold;
+    @apply leading-[66.56px];
+    @apply text-main-head;
+  }
+}
